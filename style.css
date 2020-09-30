@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#bunny1.btn{
+    background-color: blueviolet;
+    color: blueviolet;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+#bunny1.btn:hover{
+    opacity: 1;
+}
+#bunny2.btn{
+    background-color: white;
+    color: white;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+#bunny2.btn:hover{
+    opacity: 1;
+}
+#tog2{
+    position: absolute;
+    top : 0;
+    left: 0;
+    opacity: 0;
+    transform: translateY(23%);
+    pointer-events: none;
+}
+#block{
+    position: relative;
+}
+#switch{
+    display: none;
+}
+#base{
+    display: inline-block;
+    margin: 0;
+    width:53px;
+    height: 30px;
+    background-color: rgb(112, 64, 156) ;
+    border: 2px solid rgb(112, 37, 182);
+    border-radius: 18px;
+    position: relative;
+}
+#circle{
+    display: inline-block;
+    height : 24px;
+    width : 24px;
+    border-radius: 50%;
+    background-color: white;
+    transition: all 0.3s;
+    position: absolute;
+    left:1px;
+    top : 1px;
+}
+.price{
+    text-align: center;
+}
+#price1{
+    font-size: 1.2rem;
+    display: inline-block;
+    transform: translateY(-50%);
+}
+#price2{
+    font-size: 1.2rem;
+    display: inline-block;
+    transform: translateY(-50%);
+}
+input:checked ~ #tog1{
+    opacity: 0;
+}
+input:checked ~ #tog2{
+    opacity: 1;
+}
+input:checked + .price label #base #circle{
+    transform: translateX(94%);
+}

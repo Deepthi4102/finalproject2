@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS4 Boiler Plate</title>
+     
+    <!-- Bootstrap 4 css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- - FontAwesome CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+     <!-- Custom css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<section>
+
+<div class="container" id="block">
+    <div class="col-sm-12">
+        <h4 class="text-center mt-4 mb-4" style="font-size: 25px; font-weight: 550; color: #7c7a7a;">Our Pricing</h4>
+    </div>
+    <input type="checkbox" id="switch">
+    <div class="price">
+        <h6 class="px-2" id="price1" style="color: rgb(156, 156, 156);">Monthly</h6>
+        <label for="switch">
+            <div id="base">
+                <div id=circle></div>
+            </div>
+        </label>
+        <h6 class="px-2" id="price2" style="color: rgb(156, 156, 156); ">Annually</h6>
+    </div>
+    <div class="container" id="tog1">
+    <div id="annual">
+        <div class="row d-flex flex-col no-gutters">
+        <div class="col-md-4 col-sm-12">
+            <div class="card-group mt-5 my-2" style="border: 2px solid rgb(250, 248, 248); border-radius: 10px; height: 400px; box-shadow: 0 0 4px 1px rgb(209, 207, 207); transition: 0.5s;">
+                <div class="card-body">
+                    <h6 class="text-center" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">Basic</h6>
+                    <h1 class="text-center mt-3 mb-4" style="font-size: 30px;font-weight: 650; color: rgb(71, 71, 71);">$<span style="font-size: 45px; font-weight: 750;">199.99</span></h1>
+                    <div style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <h6 class="text-center my-3" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">500 GB Storage</h6>
+                    <div style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <h6 class="text-center my-3" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">2 Users Allowed</h6>
+                    <div style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <h6 class="text-center my-3" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">Send up to 3 GB</h6>
+                    <div class="mb-4" style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <div class="d-flex justify-content-center">
+                    <a href="#" class="btn btn-default text-white px-5 py-2" style="background-color: blueviolet; box-shadow: 1px 1px 1px 1px rgb(110,110,110); transition: 0.5s;" id="bunny1">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+            <div class="card-group mt-3 my-2" style="border: 2px solid rgb(250, 248, 248); border-radius: 10px; height: 460px; box-shadow: 0 0 4px 1px rgb(209, 207, 207); transition: 0.5s; background-color:rgb(112, 64, 156) ;">
+                <div class="card-body">
+                    <h6 class="text-center text-white mt-4 mb-3" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">Professional</h6>
+                    <h1 class="text-center text-white mt-3 mb-4" style="font-size: 30px;font-weight: 650; color: rgb(71, 71, 71);">$<span style="font-size: 45px; font-weight: 750;">149.99</span></h1>
+                    <div style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <h6 class="text-center text-white my-3" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">1 TB Storage</h6>
+                    <div style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <h6 class="text-center text-white my-3" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">5 Users Allowed</h6>
+                    <div style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <h6 class="text-center text-white my-3" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">Send up to 10 GB</h6>
+                    <div class="mb-4" style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <div class="d-flex justify-content-center">
+                    <a href="#" class="btn btn-default text-dark mt-2 px-5" style="font-size: 25x;font-weight: 550; box-shadow: 1px 1px 1px 1px rgb(110,110,110); transition: 0.3s;" id="bunny2">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <div class="card-group mt-5 my-2" style="border: 2px solid rgb(250, 248, 248); border-radius: 10px; height: 400px; box-shadow: 0 0 4px 1px rgb(209, 207, 207); transition: 0.5s;">
+                <div class="card-body">
+                    <h6 class="text-center" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">Master</h6>
+                    <h1 class="text-center mt-3 mb-4" style="font-size: 30px;font-weight: 650; color: rgb(71, 71, 71);">$<span style="font-size: 45px; font-weight: 750;">299.99</span></h1>
+                    <div style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <h6 class="text-center my-3" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">2 TB Storage</h6>
+                    <div style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <h6 class="text-center my-3" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">10 Users Allowed</h6>
+                    <div style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <h6 class="text-center my-3" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">Send up to 20 GB</h6>
+                    <div class="mb-4" style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <div class="d-flex justify-content-center">
+                    <a href="#" class="btn btn-default text-white py-2 px-5" style="background-color: blueviolet; box-shadow: 1px 1px 1px 1px rgb(110,110,110); transition: 0.3s;" id="bunny1">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>   
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container hide"  id="tog2">
+    <div id="month">
+        <div class="row d-flex flex-col no-gutters">
+        <div class="col-md-4 col-sm-12">
+            <div class="card-group mt-5 my-2" style="border: 2px solid rgb(250, 248, 248); border-radius: 10px; height: 400px; box-shadow: 0 0 4px 1px rgb(209, 207, 207); transition: 0.5s;">
+                <div class="card-body">
+                    <h6 class="text-center" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">Basic</h6>
+                    <h1 class="text-center mt-3 mb-4" style="font-size: 30px;font-weight: 650; color: rgb(71, 71, 71);">$<span style="font-size: 45px; font-weight: 750;">19.99</span></h1>
+                    <div style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <h6 class="text-center my-3" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">500 GB Storage</h6>
+                    <div style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <h6 class="text-center my-3" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">2 Users Allowed</h6>
+                    <div style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <h6 class="text-center my-3" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">Send up to 3 GB</h6>
+                    <div class="mb-4" style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <div class="d-flex justify-content-center">
+                    <a href="#" class="btn btn-default text-white py-2 px-5" style="background-color: blueviolet; box-shadow: 1px 1px 1px 1px rgb(110,110,110); transition: 0.3s; padding: 10px 90px;" id="bunny1">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+            <div class="card-group mt-3 my-2" style="border: 2px solid rgb(250, 248, 248); border-radius: 10px; height: 460px; box-shadow: 0 0 4px 1px rgb(209, 207, 207); transition: 0.5s; background-color:rgb(112, 64, 156) ;">
+                <div class="card-body">
+                    <h6 class="text-center text-white mt-4 mb-3" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">Professional</h6>
+                    <h1 class="text-center text-white mt-3 mb-4" style="font-size: 30px;font-weight: 650; color: rgb(71, 71, 71);">$<span style="font-size: 45px; font-weight: 750;">24.99</span></h1>
+                    <div style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <h6 class="text-center text-white my-3" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">1 TB Storage</h6>
+                    <div style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <h6 class="text-center text-white my-3" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">5 Users Allowed</h6>
+                    <div style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <h6 class="text-center text-white my-3" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">Send up to 10 GB</h6>
+                    <div class="mb-4" style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <div class="d-flex justify-content-center">
+                    <a href="#" class="btn btn-default text-dark mt-2 px-5"  style="font-size: 25x;font-weight: 550; box-shadow: 1px 1px 1px 1px rgb(110,110,110); transition: 0.3s;" id="bunny2">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-sm-12">
+            <div class="card-group mt-5 my-2" style="border: 2px solid rgb(250, 248, 248); border-radius: 10px; height: 400px; box-shadow: 0 0 4px 1px rgb(209, 207, 207); transition: 0.5s;">
+                <div class="card-body">
+                    <h6 class="text-center" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">Master</h6>
+                    <h1 class="text-center mt-3 mb-4" style="font-size: 30px;font-weight: 650; color: rgb(71, 71, 71);">$<span style="font-size: 45px; font-weight: 750;">39.99</span></h1>
+                    <div style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <h6 class="text-center my-3" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">2 TB Storage</h6>
+                    <div style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <h6 class="text-center my-3" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">10 Users Allowed</h6>
+                    <div style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <h6 class="text-center my-3" style="font-size: 18px; font-weight: 620; color: rgb(82, 81, 81);">Send up to 20 GB</h6>
+                    <div class="mb-4" style="border-bottom: 1px solid rgb(204, 203, 203);"></div>
+                    <div class="d-flex justify-content-center">
+                    <a href="#" class="btn btn-default text-white px-5 py-2" style="background-color: blueviolet; box-shadow: 1px 1px 1px 1px rgb(110,110,110); transition: 0.3s; padding: 10px 90px;" id="bunny1">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>   
+        </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+</section>
+    
+    <!-- Bootstrap 4 Js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
